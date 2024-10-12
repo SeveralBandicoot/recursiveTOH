@@ -11,7 +11,7 @@
 using namespace std;
 
 void Board(); // prototype for board function 
-void recursivetowerOfHanoi(int n, stack<char> &source, stack<char> &auxiliary, stack<char> &destination, char srcName, char auxName, char destName); // recursive function prototype
+void recursivetowerOfHanoi(int n, stack<char> &T1, stack<char> &T2, stack<char> &T3, char t1Name, char t2Name, char t3Name); // recursive function prototype
 stack<char> T1; // tower 1 stack
 stack<char> T2; // tower 2 stack
 stack<char> T3; // tower 3 stack
